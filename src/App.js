@@ -1,5 +1,6 @@
 import HouseCombo from './HouseCombo.jsx'
 import { useState, useEffect } from 'react'
+import './App.css'
 
 function App() {
   const [ houses, setHouses ] = useState([])
@@ -21,7 +22,7 @@ function handleClick(houseObj){
   
 return(
   <div className="App">
-    <h1>Houses of Harry Potter!</h1>
+    <h1 className='potter'>Houses of Harry Potter!</h1>
     {houses.map((house)=>(
       <button onClick={() => handleClick(house)}>{house.name}</button>
     ))}
