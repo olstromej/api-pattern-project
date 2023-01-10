@@ -7,6 +7,7 @@ function HouseCombo({house}) {
             <h3>House Ghost:{house.ghost}</h3>
             <h3>Common Room:{house.commonRoom}</h3>
             <h3>House Element:{house.element}</h3>
+            <h3>Head of House:{house.heads[0].firstName}</h3>
             
         </div>
     )
