@@ -1,6 +1,6 @@
 # JSON API Using Modal
 
-Built a modal UI pattern in React and integrated it with a Harry Potter API.
+Built a Modal UI pattern in React and integrated it with a Harry Potter API.
 
 <br></br>
 
